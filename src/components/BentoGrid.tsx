@@ -1,5 +1,4 @@
 import { cn } from '@/libs/utils';
-import Image from 'next/image';
 
 export const BentoGrid = ({
   className,
@@ -22,10 +21,7 @@ export const BentoGrid = ({
 
 export const BentoGridItem = ({
   className,
-  title,
-  description,
   header,
-  icon,
 }: {
   className?: string;
   title?: string | React.ReactNode;

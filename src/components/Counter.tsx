@@ -25,6 +25,7 @@ const Counter = ({
     stiffness: 100,
   });
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const isInView = useInView(ref, { once: true, margin: viewMargin as any });
 
   useEffect(() => {
@@ -38,6 +39,7 @@ const Counter = ({
       springValue.on('change', (latest) => {
         if (ref.current !== null) {
           ref.current.textContent = Intl.NumberFormat('en-US').format(
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             latest.toFixed(0) as any,
           );
         }

@@ -91,9 +91,11 @@ export default function Skill({
   leetCode,
 }: {
   section: { title: string; slug: string };
-  github: unknown;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  github: any;
   wakaTime: WakaTimeData;
   wakaTimeWeek: WakaTimeWeek;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   leetCode: any;
 }) {
   const ref = useRef(null);
@@ -107,6 +109,7 @@ export default function Skill({
     if (isInView) {
       setActiveLink(section.slug);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInView]);
 
   const { data } = github;
@@ -156,9 +159,12 @@ const Communication = () => {
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GithubStats = ({ stats }: { stats: any }) => {
   const stargazers = stats.repositories.nodes
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .filter((repo: any) => repo.stargazers.totalCount !== 0)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .reduce((prev: any, curr: any) => prev + curr.stargazers.totalCount, 0);
 
   const currentYear = new Date().getFullYear();

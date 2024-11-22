@@ -30,7 +30,7 @@ export default function Contact({
 
   return (
     <motion.section id='contact' ref={ref} className='h-screen p-10'>
-      <div className='bg-dot-primary-500 relative flex h-[50rem] w-full items-center justify-center bg-neutral-950'>
+      <div className='relative flex h-[50rem] w-full items-center justify-center bg-neutral-950 bg-dot-primary-500'>
         <div className='pointer-events-none absolute inset-0 flex items-center justify-center bg-neutral-950 [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]'></div>
         <div className='grid max-w-[55rem]'>
           <div className='py-[5rem]'>
@@ -116,6 +116,7 @@ export default function Contact({
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const DefaultButton = ({ text, icon }: { text: string; icon?: any }) => {
   const divRef = useRef<HTMLButtonElement>(null);
   const [isFocused, setIsFocused] = useState(false);
