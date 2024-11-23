@@ -84,14 +84,14 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={emveepBpkWebAdminSiswa}
-                alt='Startup project'
+                alt='Emveep project bpk admin siswa 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={emveepBpkWebPsb}
-                alt='Startup project'
+                alt='Emveep project bpk admin siswa 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -109,14 +109,14 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={emveepBpkWebSso}
-                alt='Startup project'
+                alt='Emveep project bpk sso 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={emveepBpkWeb}
-                alt='Startup project'
+                alt='Emveep project bpk sso 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -136,14 +136,14 @@ export default function Project({
               <div className='flex gap-3'>
                 <Image
                   src={emveepBpkMobile1}
-                  alt='Startup project'
+                  alt='Emveep project bpk curriculum 1'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
                 />
                 <Image
                   src={emveepBpkMobile2}
-                  alt='Startup project'
+                  alt='Emveep project bpk curriculum 2'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
@@ -151,7 +151,7 @@ export default function Project({
               </div>
               <Image
                 src={emveepBpkWebCuriculum}
-                alt='Startup project'
+                alt='Emveep project bpk curriculum 3'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -182,21 +182,21 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={halalinAcademy1}
-                alt='Halalin project'
+                alt='Halalin project backoffice 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={halalinAcademy2}
-                alt='Halalin project'
+                alt='Halalin project backoffice 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={halalinAcademy3}
-                alt='Halalin project'
+                alt='Halalin project academy 3'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -215,21 +215,21 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={halalinBackoffice1}
-                alt='Halalin project'
+                alt='Halalin project backoffice 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={halalinBackoffice2}
-                alt='Halalin project'
+                alt='Halalin project backoffice 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={halalinBackoffice3}
-                alt='Halalin project'
+                alt='Halalin project backoffice 3'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -247,7 +247,7 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={halalinSso1}
-                alt='Halalin project'
+                alt='Halalin project sso'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -279,14 +279,14 @@ export default function Project({
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={emveepProperty1}
-                alt='Supirin project'
+                alt='Emveep project property 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={emveepProperty2}
-                alt='Supirin project'
+                alt='Emveep project property 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -308,14 +308,14 @@ industry. My contributions to the project include`}
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={emveepCompanyProfile1}
-                alt='Supirin project'
+                alt='Emveep project company profile 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={emveepCompanyProfile2}
-                alt='Supirin project'
+                alt='Emveep project company profile 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -336,14 +336,14 @@ industry. My contributions to the project include`}
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={emveepWegeeks1}
-                alt='Supirin project'
+                alt='Emveep project weegeks 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={emveepWegeeks3}
-                alt='Supirin project'
+                alt='Emveep project weegeks 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -367,14 +367,14 @@ industry. My contributions to the project include`}
               <div className='flex gap-3'>
                 <Image
                   src={emveepBrainyBunchMobile1}
-                  alt='Startup project'
+                  alt='Emveep project brainy bunch mobile 1'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
                 />
                 <Image
                   src={emveepBrainyBunchMobile2}
-                  alt='Startup project'
+                  alt='Emveep project brainy bunch mobile 2'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
@@ -382,7 +382,7 @@ industry. My contributions to the project include`}
               </div>
               <Image
                 src={emveepBrainyBunchWeb1}
-                alt='Supirin project'
+                alt='Emveep project brainy bunch web 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -416,14 +416,14 @@ industry. My contributions to the project include`}
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={basicSchoolWeb1}
-                alt='Reusable components project'
+                alt='Basic project basic school 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={basicSchoolWeb2}
-                alt='Reusable components project'
+                alt='Basic project basic school 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -445,14 +445,14 @@ industry. My contributions to the project include`}
             <div className='grid grid-cols-2 gap-4'>
               <Image
                 src={basicBoyolaliWeb1}
-                alt='Reusable components project'
+                alt='Basic project pdam 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={basicBoyolaliWeb2}
-                alt='Reusable components project'
+                alt='Basic project pdam 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -478,14 +478,14 @@ industry. My contributions to the project include`}
               <div className='flex gap-3'>
                 <Image
                   src={supirinMobile1}
-                  alt='Startup project'
+                  alt='Supirin project mobile 1'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
                 />
                 <Image
                   src={supirinMobile2}
-                  alt='Startup project'
+                  alt='Supirin project mobile 2'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
@@ -493,21 +493,21 @@ industry. My contributions to the project include`}
               </div>
               <Image
                 src={supirinWeb1}
-                alt='Reusable components project'
+                alt='Supirin project web 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={supriinWeb2}
-                alt='Reusable components project'
+                alt='Supirin project web 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={supirinWeb3}
-                alt='Reusable components project'
+                alt='Supirin project web 3'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
@@ -534,14 +534,14 @@ industry. My contributions to the project include`}
               <div className='flex gap-3'>
                 <Image
                   src={steadyMobile1}
-                  alt='Startup project'
+                  alt='Steady project mobile 1'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
                 />
                 <Image
                   src={steadyMobile2}
-                  alt='Startup project'
+                  alt='Steady project mobile 2'
                   width={300}
                   height={500}
                   className='h-20 w-[8rem] rounded-lg object-cover shadow-md md:h-44 lg:h-full'
@@ -549,21 +549,21 @@ industry. My contributions to the project include`}
               </div>
               <Image
                 src={steadyWeb1}
-                alt='Reusable components project'
+                alt='Steady project web 1'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={steadyWeb2}
-                alt='Reusable components project'
+                alt='Steady project web 2'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
               <Image
                 src={steadyWeb3}
-                alt='Reusable components project'
+                alt='Steady project web 3'
                 width={500}
                 height={500}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
