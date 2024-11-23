@@ -97,6 +97,13 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
+              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
+              Cloudflare.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -122,6 +129,13 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
+              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
+              Cloudflare.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -157,6 +171,13 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
+              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
+              Cloudflare.
+            </p>
           </div>
         </div>
       ),
@@ -202,6 +223,12 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Ruby on Rails, PostgreSQL, Redis Cluster, Sidekiq, Git, Github,
+              HoneyBadger, SCSS, Hotwire, RSpec, Sentry, Docker, Digital Ocean,
+              Cloudflare.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -235,6 +262,12 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Ruby on Rails, PostgreSQL, Redis Cluster, Sidekiq, Git, Github,
+              HoneyBadger, SCSS, Hotwire, RSpec, Sentry, Docker, Digital Ocean,
+              Cloudflare, Mixpanel, Google Analytics.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -253,6 +286,12 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Ruby on Rails, PostgreSQL, Redis Cluster, Sidekiq, Git, Github,
+              HoneyBadger, SCSS, Hotwire, RSpec, Sentry, Docker, Digital Ocean,
+              Cloudflare.
+            </p>
           </div>
         </div>
       ),
@@ -292,6 +331,11 @@ export default function Project({
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Ruby on Rails, PostgreSQL, Redis, Sidekiq, Git, Github, Hotwire,
+              Bootstrap, Google Translate, Google Maps, Nginx, Docker.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -321,6 +365,11 @@ industry. My contributions to the project include`}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Next.js, Express.js, React Router, PostgreSQL, PrismaORM, Git,
+              Gitlab, Docker, Vite, CSS, Google Analytics, Google Tags.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -349,6 +398,11 @@ industry. My contributions to the project include`}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Next.js, React.js, React Query, React Router, React Redux, Git,
+              Gitlab, Vite, Bootstrap.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -388,6 +442,11 @@ industry. My contributions to the project include`}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Nest.js, PostgreSQL, PrismaORM, Redis, Docker, BullMQ, Git,
+              Gitlab.
+            </p>
           </div>
         </div>
       ),
@@ -400,65 +459,6 @@ industry. My contributions to the project include`}
             During my time in school, I often took freelance jobs to improve my
             skills. Here are some of the projects I worked on.
           </p>
-          <div className='mb-10'>
-            <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
-              <li className='my-3'>
-                <span className='font-bold'>Basic School</span>
-                <br />
-                Develop an online Learning Management System (LMS) designed for
-                those looking to become software engineers. It offers a
-                bootcamp-style experience with a clear, structured curriculum to
-                teach essential programming skills. My main contributions were
-                in developing and managing these applications as{' '}
-                <span className='underline'>Fullstack Developer</span> :
-              </li>
-            </ul>
-            <div className='grid grid-cols-2 gap-4'>
-              <Image
-                src={basicSchoolWeb1}
-                alt='Basic project basic school 1'
-                width={500}
-                height={500}
-                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
-              />
-              <Image
-                src={basicSchoolWeb2}
-                alt='Basic project basic school 2'
-                width={500}
-                height={500}
-                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
-              />
-            </div>
-          </div>
-          <div className='mb-10'>
-            <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
-              <li className='my-3'>
-                <span className='font-bold'>PDAM Water Utility Finance</span>
-                <br />
-                Building a comprehensive financial management platform designed
-                to streamline billing, payment processing, and reporting for
-                water utility services. My main contributions were in developing
-                and managing these applications as{' '}
-                <span className='underline'>Fullstack Developer</span> :
-              </li>
-            </ul>
-            <div className='grid grid-cols-2 gap-4'>
-              <Image
-                src={basicBoyolaliWeb1}
-                alt='Basic project pdam 1'
-                width={500}
-                height={500}
-                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
-              />
-              <Image
-                src={basicBoyolaliWeb2}
-                alt='Basic project pdam 2'
-                width={500}
-                height={500}
-                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
-              />
-            </div>
-          </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
               <li className='my-3'>
@@ -513,6 +513,78 @@ industry. My contributions to the project include`}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Ruby on Rails, Flutter, PostgreSQL, Redis, Sidekiq, RSpec,
+              HoneyBadger, Hotwire, Sentry, Git, Github.
+            </p>
+          </div>
+          <div className='mb-10'>
+            <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
+              <li className='my-3'>
+                <span className='font-bold'>Basic School</span>
+                <br />
+                Develop an online Learning Management System (LMS) designed for
+                those looking to become software engineers. It offers a
+                bootcamp-style experience with a clear, structured curriculum to
+                teach essential programming skills. My main contributions were
+                in developing and managing these applications as{' '}
+                <span className='underline'>Fullstack Developer</span> :
+              </li>
+            </ul>
+            <div className='grid grid-cols-2 gap-4'>
+              <Image
+                src={basicSchoolWeb1}
+                alt='Basic project basic school 1'
+                width={500}
+                height={500}
+                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
+              />
+              <Image
+                src={basicSchoolWeb2}
+                alt='Basic project basic school 2'
+                width={500}
+                height={500}
+                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
+              />
+            </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Laravel, MySQL, Bootstrap, Livewire, Git, Gitlab.
+            </p>
+          </div>
+          <div className='mb-10'>
+            <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
+              <li className='my-3'>
+                <span className='font-bold'>PDAM Water Utility Finance</span>
+                <br />
+                Building a comprehensive financial management platform designed
+                to streamline billing, payment processing, and reporting for
+                water utility services. My main contributions were in developing
+                and managing these applications as{' '}
+                <span className='underline'>Fullstack Developer</span> :
+              </li>
+            </ul>
+            <div className='grid grid-cols-2 gap-4'>
+              <Image
+                src={basicBoyolaliWeb1}
+                alt='Basic project pdam 1'
+                width={500}
+                height={500}
+                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
+              />
+              <Image
+                src={basicBoyolaliWeb2}
+                alt='Basic project pdam 2'
+                width={500}
+                height={500}
+                className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
+              />
+            </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Laravel, MySQL, Bootstrap, Livewire, Git, Gitlab.
+            </p>
           </div>
           <div className='mb-10'>
             <ul className='ml-5 list-disc text-sm text-neutral-800 dark:text-neutral-200'>
@@ -569,6 +641,11 @@ industry. My contributions to the project include`}
                 className='h-20 w-full rounded-lg object-cover shadow-md md:h-44 lg:h-60'
               />
             </div>
+            <p className='my-1 text-sm italic'>
+              <span className='font-semibold'>Tech stack: </span>
+              Laravel, Flutter, MySQL, Bootstrap, Livewire, Google Oauth,
+              Firestore.
+            </p>
           </div>
         </div>
       ),
