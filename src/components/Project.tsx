@@ -328,10 +328,9 @@ industry. My contributions to the project include`}
                 <span className='font-bold'>Weegeks</span>
                 <br />
                 Develop a leading online platform connecting businesses with
-                skilled freelancers from various industries. My contributions to
-                the project include My main contributions were in developing and
-                managing these applications as{' '}
-                <span className='underline'>Frontend Developer</span> :
+                skilled freelancers from various industries. My main
+                contributions were in developing and managing these applications
+                as <span className='underline'>Frontend Developer</span> :
               </li>
             </ul>
             <div className='grid grid-cols-2 gap-4'>
@@ -359,8 +358,8 @@ industry. My contributions to the project include`}
                 Develop an application designed for the world’s leader in
                 Islamic Montessori education, providing a comprehensive platform
                 for educators and students to enhance learning experiences. My
-                contributions to the project include My main contributions were
-                in developing and managing these applications as{' '}
+                main contributions were in developing and managing these
+                applications as{' '}
                 <span className='underline'>Backend Developer</span> :
               </li>
             </ul>
@@ -409,8 +408,8 @@ industry. My contributions to the project include`}
                 Develop an online Learning Management System (LMS) designed for
                 those looking to become software engineers. It offers a
                 bootcamp-style experience with a clear, structured curriculum to
-                teach essential programming skills My main contributions were in
-                developing and managing these applications as{' '}
+                teach essential programming skills. My main contributions were
+                in developing and managing these applications as{' '}
                 <span className='underline'>Fullstack Developer</span> :
               </li>
             </ul>
