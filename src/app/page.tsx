@@ -9,6 +9,8 @@ import { getWakaTimeData, getWakaTimeWeek } from '@/api';
 import { GET_GH_STATS } from '@/graphql/github.gql';
 import { GET_LEET_SOLVED_PROBLEMS } from '@/graphql/leetcode.gql';
 import { getGithubClient, getLeetCodeClient } from '@/libs/apollo-client';
+import { ISolvedProblems } from '@/interfaces/leetcode-response';
+import { IGitHubStats } from '@/interfaces/github-response';
 
 const sections = [
   {
@@ -32,71 +34,12 @@ const sections = [
     slug: 'contact',
   },
 ];
-interface GitHubStats {
-  user: {
-    contributionsCollection: {
-      totalCommitContributions: number;
-    };
-    repositoriesContributedTo: {
-      totalCount: number;
-    };
-    pullRequests: {
-      totalCount: number;
-    };
-    openIssues: {
-      totalCount: number;
-    };
-    closedIssues: {
-      totalCount: number;
-    };
-    repositories: {
-      totalCount: number;
-      nodes: Array<{
-        stargazers: {
-          totalCount: number;
-        };
-        name: string;
-      }>;
-      pageInfo: {
-        hasNextPage: boolean;
-        endCursor: string;
-      };
-    };
-  };
-}
-
-interface SolvedProblems {
-  allQuestionsCount: Array<{
-    difficulty: string;
-    count: number;
-  }>;
-  matchedUser: {
-    username: string;
-    profile: {
-      ranking: number;
-    };
-    problemsSolvedBeatsStats: Array<{
-      difficulty: string;
-      percentage: number | null;
-    }>;
-    submitStatsGlobal: {
-      acSubmissionNum: Array<{
-        difficulty: string;
-        count: number;
-        submissions: number;
-      }>;
-    };
-    userCalendar: {
-      submissionCalendar: string;
-    };
-  };
-}
 
 export default async function Home() {
   const wakaTime = await getWakaTimeData();
   const wakaTimeWeek = await getWakaTimeWeek();
 
-  const githubStats = await getGithubClient.getClient().query<GitHubStats>({
+  const githubStats = await getGithubClient.getClient().query<IGitHubStats>({
     query: GET_GH_STATS,
     variables: { login: process.env.GITHUB_USERNAME },
   });
@@ -105,7 +48,7 @@ export default async function Home() {
 
   const leetCodeStats = await getLeetCodeClient
     .getClient()
-    .query<SolvedProblems>({
+    .query<ISolvedProblems>({
       query: GET_LEET_SOLVED_PROBLEMS,
       variables: {
         username: process.env.LEETCODE_USERNAME,
