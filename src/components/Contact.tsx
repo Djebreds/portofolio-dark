@@ -9,6 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { Fade } from './Fade';
 import { MdOutlineFileDownload } from 'react-icons/md';
+import { sendGAEvent } from '@next/third-parties/google';
 
 export default function Contact({
   section,
@@ -21,6 +22,38 @@ export default function Contact({
   const isInView = useInView(ref, {
     margin: '-50% 0px -50% 0px',
   });
+
+  const handleLinkedInClick = () => {
+    sendGAEvent({
+      action: 'linkedin-button-clicked',
+      category: 'Contact Section',
+      label: 'Linkedin Button',
+    });
+  };
+
+  const handleGithubClick = () => {
+    sendGAEvent({
+      action: 'github-button-clicked',
+      category: 'Contact Section',
+      label: 'Github Button',
+    });
+  };
+
+  const handleEmailClick = () => {
+    sendGAEvent({
+      action: 'email-button-clicked',
+      category: 'Contact Section',
+      label: 'Email Button',
+    });
+  };
+
+  const handleDownloadCvClick = () => {
+    sendGAEvent({
+      action: 'download-cv-button-clicked',
+      category: 'Contact Section',
+      label: 'Download CV Button',
+    });
+  };
 
   useEffect(() => {
     if (isInView) {
@@ -52,6 +85,7 @@ export default function Contact({
                 href={'https://linkedin.com/in/refifauzan'}
                 target='_blank'
                 className='grid'
+                onClick={handleLinkedInClick}
               >
                 <DefaultButton
                   text='Linkedin'
@@ -65,7 +99,11 @@ export default function Contact({
               </Link>
             </Fade>
             <Fade direction='up'>
-              <Link href={'mailto:refi.ahmad.fauzn@gmail.com'} className='grid'>
+              <Link
+                href={'mailto:refi.ahmad.fauzn@gmail.com'}
+                className='grid'
+                onClick={handleEmailClick}
+              >
                 <DefaultButton
                   text='Email'
                   icon={
@@ -82,6 +120,7 @@ export default function Contact({
                 href={'https://github.com/djebreds'}
                 target='_blank'
                 className='grid'
+                onClick={handleGithubClick}
               >
                 <DefaultButton
                   text='Github'
@@ -98,6 +137,7 @@ export default function Contact({
             <Link
               href={'/assets/refi-ahmad-fauzan-cv.pdf'}
               download={true}
+              onClick={handleDownloadCvClick}
               className='relative inline-flex h-[5rem] overflow-hidden rounded-full p-[1px] transition-all hover:scale-110 focus:scale-110 active:scale-105'
             >
               <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,theme(colors.secondary.200)_0%,theme(colors.primary.500)_10%,theme(colors.primary.600)_100%)]' />
