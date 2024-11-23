@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -8,8 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Refi Fauzan Portofolio',
-  applicationName: "Refi's Portofolio",
+  title: {
+    template: '%s / Refi Fauzan',
+    default: 'Refi Fauzan',
+  },
   authors: {
     name: 'Refi Ahmad Fauzan',
   },
@@ -30,13 +32,32 @@ export const metadata: Metadata = {
     'djebreds',
     'dadang jebred',
   ],
-  themeColor: 'dark',
-  colorScheme: 'dark',
-  creator: 'Refi Fauzan',
-  publisher: 'Refi Fauzan',
-  category: 'Portofolio',
   description:
     'Specializing in backend development, I bring nearly three years of experience crafting efficient solutions with Ruby on Rails and NestJS, along with frontend skills in React.js and Next.js.',
+  metadataBase: new URL('https://refifauzan.my.id'),
+  creator: 'Refi Ahmad Fauzan',
+  publisher: 'Refi Ahmad Fauzan',
+  openGraph: {
+    type: 'website',
+    title: {
+      template: '%s / Refi Fauzan',
+      default: 'Refi Fauzan',
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: {
+      template: '%s / Refi Fauzan',
+      default: 'Refi Fauzan',
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0A0A0A',
+  colorScheme: 'dark',
 };
 
 export default function RootLayout({
