@@ -100,9 +100,9 @@ export default function Project({
             <p className='my-1 text-sm italic'>
               <span className='font-semibold'>Tech stack: </span>
               Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
-              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
-              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
-              Cloudflare.
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Midtrans,
+              Prometheus, Google Oauth, JWT, Firebase Cloud Messaging, AWS S3,
+              AWS EC2, Cloudflare.
             </p>
           </div>
           <div className='mb-10'>
@@ -132,9 +132,9 @@ export default function Project({
             <p className='my-1 text-sm italic'>
               <span className='font-semibold'>Tech stack: </span>
               Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
-              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
-              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
-              Cloudflare.
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Midtrans,
+              Prometheus, Google Oauth, JWT, Firebase Cloud Messaging, AWS S3,
+              AWS EC2, Cloudflare.
             </p>
           </div>
           <div className='mb-10'>
@@ -174,9 +174,9 @@ export default function Project({
             <p className='my-1 text-sm italic'>
               <span className='font-semibold'>Tech stack: </span>
               Nest.js, PostgreSQL, TypeORM, Redis, BullMQ, RabbitMQ, Git,
-              GitLab, Docker, Kubernetes, RESTful API, Swagger, Prometheus,
-              Google Oauth, JWT, Firebase Cloud Messaging, AWS S3, AWS EC2,
-              Cloudflare.
+              GitLab, Docker, Kubernetes, RESTful API, Swagger, Midtrans,
+              Prometheus, Google Oauth, JWT, Firebase Cloud Messaging, AWS S3,
+              AWS EC2, Cloudflare.
             </p>
           </div>
         </div>
@@ -516,7 +516,7 @@ industry. My contributions to the project include`}
             <p className='my-1 text-sm italic'>
               <span className='font-semibold'>Tech stack: </span>
               Ruby on Rails, Flutter, PostgreSQL, Redis, Sidekiq, RSpec,
-              HoneyBadger, Hotwire, Sentry, Git, Github.
+              HoneyBadger, Hotwire, Sentry, Xendit, Git, Github.
             </p>
           </div>
           <div className='mb-10'>
