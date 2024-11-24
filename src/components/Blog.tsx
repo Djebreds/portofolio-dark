@@ -89,7 +89,7 @@ export default function Blog({
                   target='_blank'
                   className='z-[1] flex transform items-center gap-2 rounded-full border border-white bg-[#d2e6ff] bg-opacity-50 px-3 py-2 font-medium text-[#1b3251] shadow-black/[0.04] backdrop-blur-[0.5rem] transition duration-500 hover:scale-110'
                 >
-                  Dev.to
+                  Dev
                   <FaDev size={30} />
                 </Link>
               </div>

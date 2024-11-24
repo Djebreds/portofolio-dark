@@ -88,7 +88,7 @@ export default function Contact({
                 onClick={handleLinkedInClick}
               >
                 <DefaultButton
-                  text='Linkedin'
+                  text='Connect with me on Linkedin'
                   icon={
                     <FaLinkedinIn
                       size={30}
@@ -105,7 +105,7 @@ export default function Contact({
                 onClick={handleEmailClick}
               >
                 <DefaultButton
-                  text='Email'
+                  text='Email me'
                   icon={
                     <IoMail
                       size={30}
@@ -123,7 +123,7 @@ export default function Contact({
                 onClick={handleGithubClick}
               >
                 <DefaultButton
-                  text='Github'
+                  text='My Github'
                   icon={
                     <FaGithub
                       size={30}
@@ -146,7 +146,7 @@ export default function Contact({
                   size={30}
                   className='transition duration-150 group-hover:translate-x-1'
                 />
-                Download CV
+                Download My CV
               </span>
             </Link>
           </div>
