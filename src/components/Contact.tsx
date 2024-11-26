@@ -68,8 +68,8 @@ export default function Contact({
         <div className='grid max-w-[55rem]'>
           <div className='py-[5rem]'>
             <Fade direction='right'>
-              <h2 className='relative z-20 bg-gradient-to-b from-secondary-100 to-secondary-600 bg-clip-text text-4xl font-bold text-transparent sm:text-7xl'>
-                Get in touch.
+              <h2 className='relative z-20 bg-gradient-to-l from-secondary-100 to-secondary-600 bg-clip-text text-4xl font-bold text-transparent sm:text-7xl'>
+                Get in touch with me.
               </h2>
             </Fade>
             <Fade direction='right'>
