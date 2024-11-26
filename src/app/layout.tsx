@@ -12,20 +12,20 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Refi Fauzan - Backend Developer Portfolio',
-    default: 'Refi Fauzan - Backend Developer | Ruby on Rails & NestJS',
+    template: '%s | Refi Ahmad Fauzan - Backend Developer Portfolio',
+    default: 'Refi Ahmad Fauzan - Backend Developer | Ruby on Rails & NestJS',
   },
   authors: { name: 'Refi Ahmad Fauzan' },
   keywords: [
     'Refi Fauzan',
     'Refi Ahmad Fauzan',
     'Refi Ahmad Fauzan portfolio',
-    'developer Bandung',
     'Refi Fauzan Emveep',
     'Contact Refi Fauzan',
+    'Dadang Jebred',
+    'developer Bandung',
     'Djebreds',
     'djebreds',
-    'Dadang Jebred',
     'Portfolio Refi',
     'Portfolio Refi Fauzan',
     'Refi Ahmad Fauzan Developer',
